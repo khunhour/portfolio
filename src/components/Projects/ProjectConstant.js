@@ -26,5 +26,5 @@ export default projects = [
         tags: ["HTML", "CSS", "JavaScript", "Webpack", "date-fns Library"],
         source: "https://github.com/khunhour/todo_list",
         demo: "https://khunhour.github.io/todo_list/",
-    }
+    },
 ]

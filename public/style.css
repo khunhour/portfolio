@@ -8,6 +8,16 @@
 	--green: #5cdb95;
 	--light-green: #8ee4af;
 	--white: #edf5e1;
+	--accent: #23c19d;
+	background-color: #349188;
+	--a: #C40000;
+	--blue:#2daae9;
+	--lightblue:#55dae1;
+	--yellow:#ffd42f;
+	--red:#ff4351;
+	--orange:#fc8822,
+
+	
 }
 * {
 	padding: 0;
