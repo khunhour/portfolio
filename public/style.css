@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@300;400;700&display=swap");
+
+:root {
+	font-family: "Roboto Mono", monospace;
+	font-family: "Poppins", sans-serif;
+	--dark-blue: #042d57;
+	--dark-green: #379683;
+	--green: #5cdb95;
+	--light-green: #8ee4af;
+	--white: #edf5e1;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}

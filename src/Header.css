@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+header span {
+	color: #5cdb95;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	list-style-type: none;
+	margin-left: 30px;
+}
+nav li a {
+	text-decoration: none;
+	color: #5cdb95;
+}
