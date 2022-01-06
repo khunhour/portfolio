@@ -17,6 +17,7 @@ export default function Header() {
 					<a href="#Projects">Projects</a>
 				</li>
 			</nav>
+			<div class="menu">Menu</div>
 		</header>
 	);
 }
