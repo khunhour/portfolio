@@ -5,7 +5,8 @@ export default function Hero() {
     <section>
       <div>Hi there, My name is</div>
       <div>Khunhour Morm.</div>
-      <div>Front-End Web Developer</div>
+      <div>Front-End Web Developer.</div>
+      <button>Resume</button>
     </section>
   )
 }
