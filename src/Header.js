@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { MdMenu } from "react-icons/md";
+
 export default function Header() {
 	return (
 		<header>
@@ -20,7 +22,7 @@ export default function Header() {
 					<a href="#projects">Projects</a>
 				</li>
 			</nav>
-			<div className="menu">Menu</div>
+			{/* <MdMenu size={"1.8em"} /> */}
 		</header>
 	);
 }

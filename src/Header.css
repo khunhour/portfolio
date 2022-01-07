@@ -20,7 +20,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 20px;
+	padding: 10px 30px;
 }
 
 header span {
@@ -34,9 +34,18 @@ nav {
 
 nav li {
 	list-style-type: none;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 nav li a {
 	text-decoration: none;
+	color: white;
+	padding: 5px 12px;
+	border-radius: 5px;
+	border: solid 1px transparent;
+	transition: all 0.25s ease;
+}
+
+nav li a:hover {
+	border: solid 1px var(--accent-color);
 	color: var(--accent-color);
 }
