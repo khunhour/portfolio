@@ -8,16 +8,19 @@ export default function Header() {
 			</h1>
 			<nav>
 				<li>
-					<a href="/">Home</a>
+					<a href="#home">Home</a>
 				</li>
 				<li>
-					<a href="#About">About Me</a>
+					<a href="#about">About</a>
 				</li>
 				<li>
-					<a href="#Projects">Projects</a>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
 				</li>
 			</nav>
-			<div class="menu">Menu</div>
+			<div className="menu">Menu</div>
 		</header>
 	);
 }

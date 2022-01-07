@@ -9,22 +9,23 @@
 	--light-green: #8ee4af;
 	--white: #edf5e1;
 	--accent: #23c19d;
-	background-color: #349188;
-	--a: #C40000;
-	--blue:#2daae9;
-	--lightblue:#55dae1;
-	--yellow:#ffd42f;
-	--red:#ff4351;
-	--orange:#fc8822,
-
-	
+	/* --backg: #349188; */
+	--a: #c40000;
+	--blue: #2daae9;
+	--lightblue: #55dae1;
+	--yellow: #ffd42f;
+	--red: #ff4351;
+	--orange: #fc8822;
 }
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-
+html {
+	background-color: #1b2025;
+}
 body {
-	background-color: white;
+	background-color: #1b2025;
+	color: var(--white);
 }

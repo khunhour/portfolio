@@ -1,3 +1,21 @@
+:root {
+	font-family: "Roboto Mono", monospace;
+	font-family: "Poppins", sans-serif;
+	--dark-blue: #042d57;
+	--dark-green: #379683;
+	--green: #5cdb95;
+	--light-green: #8ee4af;
+	--white: #edf5e1;
+	--accent: #07d8a7;
+	--a: #c40000;
+	--accent-color: #349188;
+	--accent-color: #f87707;
+	--accent-color: #e22532;
+	--accent-color: #55dae1;
+	--accent-color: #2daae9;
+	--accent-color: #fccc0e;
+}
+
 header {
 	display: flex;
 	align-items: center;
@@ -6,7 +24,7 @@ header {
 }
 
 header span {
-	color: #5cdb95;
+	color: var(--accent-color);
 }
 
 nav {
@@ -20,5 +38,5 @@ nav li {
 }
 nav li a {
 	text-decoration: none;
-	color: #5cdb95;
+	color: var(--accent-color);
 }
