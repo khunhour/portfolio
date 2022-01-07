@@ -1,6 +1,5 @@
 .skills-container {
 	display: flex;
-	overflow: none;
 	flex-wrap: wrap;
 	max-width: 640px;
 }
@@ -11,7 +10,6 @@
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	/* border: solid 1px yellow; */
 	width: 130px;
 	height: 130px;
 	margin: 10px;
