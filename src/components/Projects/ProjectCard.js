@@ -16,9 +16,9 @@ export default function ProjectCard({ project }) {
 			<img src={image} alt="project" />
 			<div className="project-info">
 				<div>
-					<h3>{title}</h3>
+					<h3 className="project-title">{title}</h3>
 					<p>{description}</p>
-					<h5>Technologies Used:</h5>
+					<h5 className="project-tech">Technologies Used:</h5>
 					<div className="tags-container">{tagsContainer}</div>
 				</div>
 				<div className="project-buttons">

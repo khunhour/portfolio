@@ -2,45 +2,50 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-
 	gap: 20px;
 }
 
 .project {
 	display: grid;
 	grid-template-columns: min-content 1fr;
-	justify-content: space-between;
 	background-color: #252a30;
 	border-radius: 5px;
 	padding: 20px;
 }
 
 .project-info {
-	display: grid;
-	grid-template-rows: 1fr 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
 }
+
 .project img {
 	width: 400px;
+	height: 300px;
 	border-radius: 5px;
 	margin-right: 20px;
 	border: solid 1px rgb(95, 93, 93);
 }
 
+.project-title {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.project-tech {
+	margin-top: 10px;
+}
 .tags-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 0.5fr 0.7fr 1fr;
+	margin-bottom: 20px;
 }
 
 .tag {
 	font-family: "Roboto Mono", monospace;
 	font-size: 13px;
-	background-color: transparent;
-	/* padding: 5px 10px; */
-	border-radius: 5px;
-	/* border: solid 1px var(--accent-color); */
-	/* color: var(--accent-color); */
 	margin-left: 10px;
-	/* margin-bottom: 10px; */
 }
 
 .tag::before {
@@ -68,11 +73,17 @@
 	margin: 0;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1024px) {
 	.project-container {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 	.project {
 		display: flex;
+		flex-direction: column;
+	}
+	.project img {
+		margin-right: 0;
+		margin-bottom: 20px;
 	}
 }
