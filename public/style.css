@@ -3,6 +3,7 @@
 :root {
 	font-family: "Roboto Mono", monospace;
 	font-family: "Poppins", sans-serif;
+	font-size: 19px;
 	--dark-blue: #042d57;
 	--dark-green: #379683;
 	--green: #5cdb95;
@@ -13,10 +14,12 @@
 	--a: #c40000;
 	--blue: #2daae9;
 	--lightblue: #55dae1;
-	--accent-color: #ffd42f;
 	--red: #ff4351;
 	--orange: #fc8822;
-	font-size: 19px;
+
+	--bg-color: #1b2025;
+	--light-bg-color: #252a30;
+	--accent-color: #ffd42f;
 }
 * {
 	padding: 0;

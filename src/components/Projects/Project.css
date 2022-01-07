@@ -8,7 +8,7 @@
 .project {
 	display: grid;
 	grid-template-columns: min-content 1fr;
-	background-color: #252a30;
+	background-color: var(--light-bg-color);
 	border-radius: 5px;
 	padding: 20px;
 }

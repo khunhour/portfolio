@@ -1,5 +1,5 @@
 .accent {
-	color: #ffd42f;
+	color: var(--accent-color);
 }
 
 .name {

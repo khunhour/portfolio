@@ -4,7 +4,7 @@
 	max-width: 640px;
 }
 .skill {
-	background-color: #252a30;
+	background-color: var(--light-bg-color);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
