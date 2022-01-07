@@ -1,0 +1,24 @@
+.skills-container {
+	display: flex;
+	overflow: none;
+	flex-wrap: wrap;
+	max-width: 640px;
+}
+.skill {
+	background-color: #252a30;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	/* border: solid 1px yellow; */
+	width: 130px;
+	height: 130px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.skill img {
+	width: 70px;
+	height: 70px;
+}
