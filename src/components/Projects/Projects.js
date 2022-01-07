@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Projects() {
-  return (
-    <section>
-      projects
-    </section>
-  )
+	return (
+		<section id="projects">
+			<h2>Projects</h2>
+		</section>
+	);
 }

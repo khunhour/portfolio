@@ -1,3 +1,11 @@
 .accent {
 	color: #ffd42f;
 }
+
+.name {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: 800;
+	font-size: 65px;
+	line-height: 72px;
+}
