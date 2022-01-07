@@ -5,6 +5,7 @@
 	width: 100%;
 	background-color: #252a30;
 	padding: 50px;
+	border-radius: 5px;
 }
 .contact {
 	display: flex;
