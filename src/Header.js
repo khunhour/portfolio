@@ -21,6 +21,9 @@ export default function Header() {
 				<li>
 					<a href="#projects">Projects</a>
 				</li>
+				<li>
+					<a href="#contacts">Contacts</a>
+				</li>
 			</nav>
 			{/* <MdMenu size={"1.8em"} /> */}
 		</header>
