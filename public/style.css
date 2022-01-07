@@ -64,8 +64,10 @@ section h2::after {
 	color: var(--accent-color);
 }
 
-button {
+button,
+.link-button {
 	font-family: "Roboto Mono", monospace;
+	font-size: 15px;
 	background-color: transparent;
 	padding: 12px 40px;
 	border-radius: 5px;
@@ -76,7 +78,8 @@ button {
 	margin-top: 20px;
 }
 
-button:hover {
+button:hover,
+.link-button:hover {
 	background-color: #ffd52f2c;
 }
 

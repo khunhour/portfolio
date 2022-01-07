@@ -1,7 +1,8 @@
 export const projects = [
 	{
 		title: "dev:store",
-		description: "lorem",
+		description:
+			"lorem fjksldamfldsfnas f dskf lkds flkd flks mlfk maklfmdslkmflks l jln ijn j jn i nj no mkm k j noi km k mn okm lk  j",
 		image: "/images/projectImages/devstore.png",
 		tags: ["HTML", "CSS", "JavaScript", "React", "FakeStore API"],
 		source: "https://github.com/khunhour/shopping-cart",

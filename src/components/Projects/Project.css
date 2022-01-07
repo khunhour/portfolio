@@ -1,3 +1,78 @@
+.project-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	gap: 20px;
+}
+
+.project {
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	justify-content: space-between;
+	background-color: #252a30;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.project-info {
+	display: grid;
+	grid-template-rows: 1fr 20%;
+}
 .project img {
 	width: 400px;
+	border-radius: 5px;
+	margin-right: 20px;
+	border: solid 1px rgb(95, 93, 93);
+}
+
+.tags-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tag {
+	font-family: "Roboto Mono", monospace;
+	font-size: 13px;
+	background-color: transparent;
+	/* padding: 5px 10px; */
+	border-radius: 5px;
+	/* border: solid 1px var(--accent-color); */
+	/* color: var(--accent-color); */
+	margin-left: 10px;
+	/* margin-bottom: 10px; */
+}
+
+.tag::before {
+	content: "\2022";
+	color: var(--accent-color);
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -0.8em;
+}
+
+.project-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.project-buttons a {
+	color: var(--accent-color);
+}
+
+.link-button {
+	margin: 0;
+}
+
+@media (max-width: 1040px) {
+	.project-container {
+		grid-template-columns: 1fr 1fr;
+	}
+	.project {
+		display: flex;
+	}
 }
