@@ -13,7 +13,7 @@
 	--a: #c40000;
 	--blue: #2daae9;
 	--lightblue: #55dae1;
-	--yellow: #ffd42f;
+	--accent-color: #ffd42f;
 	--red: #ff4351;
 	--orange: #fc8822;
 }
@@ -28,4 +28,46 @@ html {
 body {
 	background-color: #1b2025;
 	color: var(--white);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 auto;
+	padding: 58px;
+	max-width: 1040px;
+	box-sizing: content-box;
+	position: relative;
+	overflow: hidden;
+}
+
+section h2 {
+	width: max-content;
+	max-width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: 800;
+	font-size: 65px;
+	line-height: 72px;
+}
+
+button {
+	font-family: "Roboto Mono", monospace;
+	background-color: transparent;
+	padding: 12px 40px;
+	border-radius: 5px;
+	border: solid 1px var(--accent-color);
+	color: var(--accent-color);
+	transition: all 0.25s ease;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #ffd52f2c;
+}
+
+.mono {
+	font-family: "Roboto Mono", monospace;
 }
