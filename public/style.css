@@ -53,6 +53,16 @@ section h2 {
 	line-height: 72px;
 }
 
+section h2::before {
+	content: "\2192";
+	/* content: ">"; */
+	color: var(--accent-color);
+}
+section h2::after {
+	content: ".";
+	color: var(--accent-color);
+}
+
 button {
 	font-family: "Roboto Mono", monospace;
 	background-color: transparent;

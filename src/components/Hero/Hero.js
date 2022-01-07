@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 export default function Hero() {
 	return (
-		<section>
+		<section id="home">
 			<div className="mono">Hi there, My name is</div>
 			<div className="name">Khunhour Morm.</div>
 			<h1 className="accent">Front-End Web Developer.</h1>
