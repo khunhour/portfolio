@@ -91,9 +91,12 @@ nav ul li a:hover {
 		top: 0;
 		background: var(--light-bg-color);
 		z-index: 100;
-		display: block;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		text-align: center;
-		padding-top: 40px;
+		padding-bottom: 60px;
 		transition: all 0.3s ease;
 	}
 

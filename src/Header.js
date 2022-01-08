@@ -7,6 +7,10 @@ export default function Header() {
 	const toggleMenuBtn = () => {
 		setLinksHidden(!linksHidden);
 	};
+
+	const handleLinkClick = () => {
+		setLinksHidden(true);
+	};
 	const className = linksHidden ? "" : "active";
 	return (
 		<header>
@@ -18,19 +22,19 @@ export default function Header() {
 					<div className="small-logo">
 						k<span>.</span>
 					</div>
-					<li>
+					<li onClick={handleLinkClick}>
 						<a href="#home">Home</a>
 					</li>
-					<li>
+					<li onClick={handleLinkClick}>
 						<a href="#about">About</a>
 					</li>
-					<li>
+					<li onClick={handleLinkClick}>
 						<a href="#skills">Skills</a>
 					</li>
-					<li>
+					<li onClick={handleLinkClick}>
 						<a href="#projects">Projects</a>
 					</li>
-					<li>
+					<li onClick={handleLinkClick}>
 						<a href="#contacts">Contacts</a>
 					</li>
 				</ul>
