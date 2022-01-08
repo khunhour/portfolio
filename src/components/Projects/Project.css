@@ -1,13 +1,13 @@
 .project-container {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	width: 100%;
 	gap: 20px;
 }
 
 .project {
-	display: grid;
-	grid-template-columns: min-content 1fr;
+	display: flex;
+	flex-direction: column;
 	background-color: var(--light-bg-color);
 	border-radius: 5px;
 	padding: 20px;
@@ -21,13 +21,11 @@
 }
 
 .project img {
-	width: 400px;
-	height: 300px;
+	width: 100%;
 	border-radius: 5px;
-	margin-right: 20px;
 	border: solid 1px rgb(95, 93, 93);
+	margin-bottom: 10px;
 }
-
 .project-title {
 	text-align: center;
 	padding: 5px 0;
@@ -73,17 +71,5 @@
 	margin: 0;
 }
 
-@media (max-width: 1024px) {
-	.project-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
-	.project {
-		display: flex;
-		flex-direction: column;
-	}
-	.project img {
-		margin-right: 0;
-		margin-bottom: 20px;
-	}
+@media (max-width: 950px) {
 }
