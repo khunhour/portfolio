@@ -10,7 +10,9 @@ export default function Contacts() {
 			<div className="contacts-container">
 				<div className="contact">
 					<FaGithub color="var(--accent-color)" />
-					Github
+					<a href="https://github.com/khunhour">
+						https://github.com/khunhour
+					</a>
 				</div>
 				<div className="contact">
 					<MdMail color="var(--accent-color)" />

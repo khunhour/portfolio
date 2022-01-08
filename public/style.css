@@ -95,6 +95,7 @@ button:hover,
 span {
 	color: var(--accent-color);
 }
+
 @media (max-width: 550px) {
 	section {
 		padding: 45px 25px;
