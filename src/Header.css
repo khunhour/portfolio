@@ -50,7 +50,16 @@ nav li a:hover {
 	color: var(--accent-color);
 }
 
+@media (max-width: 550px) {
+	header {
+		padding: 10px 25px;
+	}
+}
+
 @media (max-width: 500px) {
+	header {
+		padding: 10px 20px;
+	}
 	header h1 {
 		font-size: 30px;
 	}
