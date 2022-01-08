@@ -73,3 +73,15 @@
 
 @media (max-width: 950px) {
 }
+
+@media (max-width: 900px) {
+	.project-container {
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+	.project img {
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

@@ -25,7 +25,7 @@ export const projects = [
 			"JavaScript",
 			"OpenWeatherMap API",
 			"CSS",
-			"Async & Await",
+			"Async&Await",
 		],
 		source: "https://github.com/khunhour/weather_app",
 		demo: "https://khunhour.github.io/weather_app/",
