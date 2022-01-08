@@ -32,6 +32,15 @@ nav {
 	align-items: center;
 }
 
+.small-logo {
+	display: none;
+	font-size: 60px;
+}
+
+.active .small-logo {
+	display: block;
+}
+
 nav ul {
 	display: flex;
 }

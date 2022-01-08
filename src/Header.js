@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { MdMenu, MdClose } from "react-icons/md";
 
@@ -8,7 +8,6 @@ export default function Header() {
 		setLinksHidden(!linksHidden);
 	};
 	const className = linksHidden ? "" : "active";
-
 	return (
 		<header>
 			<h1>
@@ -16,6 +15,9 @@ export default function Header() {
 			</h1>
 			<nav>
 				<ul className={className}>
+					<h1 className="small-logo">
+						k<span>.</span>
+					</h1>
 					<li>
 						<a href="#home">Home</a>
 					</li>
