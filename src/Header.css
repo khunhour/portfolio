@@ -32,11 +32,15 @@ nav {
 	align-items: center;
 }
 
-nav li {
+nav ul {
+	display: flex;
+}
+
+nav ul li {
 	list-style-type: none;
 	margin-left: 10px;
 }
-nav li a {
+nav ul li a {
 	text-decoration: none;
 	color: white;
 	padding: 5px 12px;
@@ -45,9 +49,51 @@ nav li a {
 	transition: all 0.25s ease;
 }
 
-nav li a:hover {
+nav ul li a:hover {
 	border: solid 1px var(--accent-color);
 	color: var(--accent-color);
+}
+
+.menu-btn {
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	display: none;
+	z-index: 999;
+}
+
+.menu-btn:hover {
+	color: var(--accent-color);
+}
+
+@media (max-width: 955px) {
+	.menu-btn {
+		display: flex;
+	}
+	nav ul {
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		left: -100%;
+		top: 0;
+		background: var(--light-bg-color);
+		z-index: 100;
+		display: block;
+		text-align: center;
+		padding-top: 80px;
+		transition: all 0.3s ease;
+	}
+
+	nav ul.active {
+		left: 0;
+	}
+
+	nav ul li a {
+		display: inline-block;
+		margin: 18px 0px;
+		font-size: 24px;
+	}
 }
 
 @media (max-width: 550px) {
