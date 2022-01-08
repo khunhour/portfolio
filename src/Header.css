@@ -49,3 +49,9 @@ nav li a:hover {
 	border: solid 1px var(--accent-color);
 	color: var(--accent-color);
 }
+
+@media (max-width: 500px) {
+	header h1 {
+		font-size: 30px;
+	}
+}
