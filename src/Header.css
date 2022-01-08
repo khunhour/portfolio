@@ -21,6 +21,10 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px 30px;
+	position: sticky;
+	top: 0;
+	z-index: 500;
+	background-color: var(--light-bg-color);
 }
 
 header span {
@@ -35,10 +39,7 @@ nav {
 .small-logo {
 	display: none;
 	font-size: 60px;
-}
-
-.active .small-logo {
-	display: block;
+	font-weight: bold;
 }
 
 nav ul {
@@ -64,6 +65,7 @@ nav ul li a:hover {
 }
 
 .menu-btn {
+	font-size: 1.8em;
 	cursor: pointer;
 	align-items: center;
 	justify-content: center;
@@ -80,6 +82,7 @@ nav ul li a:hover {
 	.menu-btn {
 		display: flex;
 	}
+
 	nav ul {
 		position: fixed;
 		height: 100vh;
@@ -90,17 +93,20 @@ nav ul li a:hover {
 		z-index: 100;
 		display: block;
 		text-align: center;
-		padding-top: 80px;
+		padding-top: 40px;
 		transition: all 0.3s ease;
 	}
 
 	nav ul.active {
 		left: 0;
 	}
+	ul.active .small-logo {
+		display: block;
+	}
 
 	nav ul li a {
 		display: inline-block;
-		margin: 18px 0px;
+		margin: 10px 0px;
 		font-size: 24px;
 	}
 }
@@ -117,5 +123,8 @@ nav ul li a:hover {
 	}
 	header h1 {
 		font-size: 30px;
+	}
+	.menu-btn {
+		font-size: 1.5em;
 	}
 }

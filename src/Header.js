@@ -15,9 +15,9 @@ export default function Header() {
 			</h1>
 			<nav>
 				<ul className={className}>
-					<h1 className="small-logo">
+					<div className="small-logo">
 						k<span>.</span>
-					</h1>
+					</div>
 					<li>
 						<a href="#home">Home</a>
 					</li>
@@ -35,11 +35,7 @@ export default function Header() {
 					</li>
 				</ul>
 				<div className="menu-btn" onClick={toggleMenuBtn}>
-					{linksHidden ? (
-						<MdMenu size={"1.8em"} />
-					) : (
-						<MdClose size={"1.8em"} />
-					)}
+					{linksHidden ? <MdMenu /> : <MdClose />}
 				</div>
 			</nav>
 		</header>
