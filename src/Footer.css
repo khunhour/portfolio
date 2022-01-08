@@ -1,0 +1,18 @@
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	gap: 5px;
+}
+footer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-img {
+	color: var(--accent-color);
+}
+.footer-img:hover {
+	color: white;
+}
