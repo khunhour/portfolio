@@ -9,3 +9,16 @@
 	font-size: 65px;
 	line-height: 72px;
 }
+
+@media (max-width: 500px) {
+	.name {
+		font-size: 52px;
+	}
+
+	#home h1 {
+		font-size: 22px;
+	}
+	#home .mono {
+		font-size: 17px;
+	}
+}

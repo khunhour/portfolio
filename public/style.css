@@ -98,5 +98,12 @@ span {
 		padding: 45px 25px;
 	}
 }
+
+@media (max-width: 500px) {
+	section h2 {
+		font-size: 32px;
+		line-height: 72px;
+	}
+}
 @media (max-width: 830px) {
 }
