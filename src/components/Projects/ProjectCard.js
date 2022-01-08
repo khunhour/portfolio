@@ -22,12 +22,13 @@ export default function ProjectCard({ project }) {
 					<div className="tags-container">{tagsContainer}</div>
 				</div>
 				<div className="project-buttons">
-					<div className="link-button">
-						<a href={source}>Source</a>
-					</div>
-					<div className="link-button">
-						<a href={demo}>Live Demo</a>
-					</div>
+					<a className="link-button" href={source}>
+						Source
+					</a>
+
+					<a className="link-button" href={demo}>
+						Live Demo
+					</a>
 				</div>
 			</div>
 		</div>

@@ -16,7 +16,12 @@ export default function Contacts() {
 					<MdMail color="var(--accent-color)" />
 					<div>khonhourmorm@gmail.com</div>
 				</div>
-				<button>Resume</button>
+				<a
+					href="/images/projectImages/devstore.png"
+					className="link-button"
+				>
+					Download Resume
+				</a>
 			</div>
 		</section>
 	);

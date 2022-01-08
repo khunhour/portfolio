@@ -59,7 +59,6 @@ section h2 {
 
 section h2::before {
 	content: "\2192";
-	/* content: ">"; */
 	color: var(--accent-color);
 }
 section h2::after {
@@ -79,6 +78,8 @@ button,
 	transition: all 0.25s ease;
 	cursor: pointer;
 	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
 }
 
 button:hover,

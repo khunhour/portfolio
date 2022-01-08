@@ -3,7 +3,7 @@ import "./Header.css";
 import { MdMenu, MdClose } from "react-icons/md";
 
 export default function Header() {
-	const [linksHidden, setLinksHidden] = useState(false);
+	const [linksHidden, setLinksHidden] = useState(true);
 	const toggleMenuBtn = () => {
 		setLinksHidden(!linksHidden);
 	};
