@@ -64,8 +64,8 @@ export const projects = [
 		description: (
 			<p>
 				A fully responsive weather application that enables users to
-				search weather information via city's name. By leveraging
-				weather data from{" "}
+				search weather information via city's name. By leveraging data
+				from{" "}
 				<a href="https://openweathermap.org/">OpenWeatherMap API</a>,
 				the app displays the current weather forecast, hourly forecast
 				for the next 24-hours as well as daily forecast for the next 7
@@ -93,16 +93,16 @@ export const projects = [
 				WhatToDo is a to-do list app that lets users easily organize
 				their tasks and projects. It is built using{" "}
 				<span>JavaScript ES6 Modules</span>
-				and bundled using <span>Webpack</span>.{" "}
-				<a href="https://date-fns.org/">date-fns Library</a>
-				is also utilized for efficiently formatting date. A light and
-				dark mode toggle is incorporated into the app as well.
+				and bundled using <span>Webpack</span>. To efficiently format
+				date, <a href="https://date-fns.org/">date-fns Library</a> is
+				utilized. A light and dark mode toggle is incorporated into the
+				app as well.
 			</p>
 		),
 		challenges: (
 			<p>
 				This project was very fun to work on, but I did encountered some
-				problems along the way especially when I tried to implement a
+				problems along the way especially when I tried to implement a{" "}
 				<span>drag-and-drop</span> feature in order to rearrange
 				projects. I managed to get it to work, but I think the code can
 				be a bit cleaner.
