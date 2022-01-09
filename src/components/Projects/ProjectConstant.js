@@ -40,7 +40,7 @@ export const projects = [
 				series of <span>unit tests</span> are created to test public
 				functions/methods in order to reduce bugs and errors for the
 				overall project. AI is also implemented for the computer to make
-				a smart and strategic move.
+				smart and strategic moves.
 			</p>
 		),
 		challenges: (
@@ -49,8 +49,9 @@ export const projects = [
 				a lot a <span>TDD</span> as well as how important it is for code
 				quality. Admittedly, this is also the first time in a project
 				that I dare myself to finish thinking about the logic and tests
-				of the game before starting to think of how it would look. It
-				was hard at first, but it was smooth sailing after that.
+				of the game first, before starting to think of how it would
+				look. It was hard at first, but it was smooth sailing after
+				that.
 			</p>
 		),
 		image: "/images/projectImages/battleship.png",
