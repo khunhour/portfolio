@@ -4,6 +4,8 @@ import Contacts from "../components/Contacts/Contacts";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import "./Main.css";
 
 export default function Main() {
 	const [scrollBtnIsVisible, setScrollBtnIsVisible] = useState(false);
@@ -15,8 +17,8 @@ export default function Main() {
 		}
 	};
 	useEffect(() => {
-		document.addEventListener("scroll", toggleVisibility);
-	}, []);
+		window.addEventListener("scroll", toggleVisibility);
+	}, [scrollBtnIsVisible]);
 
 	const scrollToTop = () => {
 		window.scrollTo({
@@ -25,6 +27,8 @@ export default function Main() {
 		});
 	};
 
+	const className = scrollBtnIsVisible ? "" : "zero-opacity";
+
 	return (
 		<div>
 			<Hero />
@@ -32,7 +36,9 @@ export default function Main() {
 			<Skills />
 			<Projects />
 			<Contacts />
-			div.#lesson
+			<div onClick={scrollToTop} className={`scroll-to-top ${className}`}>
+				<BsFillArrowUpCircleFill />
+			</div>
 		</div>
 	);
 }

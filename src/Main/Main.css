@@ -1,0 +1,19 @@
+.scroll-to-top {
+	display: inline-block;
+	font-size: 1.8em;
+	position: fixed;
+	right: 0.8em;
+	bottom: 0.5em;
+	opacity: 1;
+	transition: all 0.5 ease;
+}
+
+.scroll-to-top.zero-opacity {
+	opacity: 0;
+	right: -100%;
+}
+
+.scroll-to-top:hover {
+	cursor: pointer;
+	color: var(--accent-color);
+}
