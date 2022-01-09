@@ -1,0 +1,22 @@
+ul.yellow-bullet-lists{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 20px;
+}
+
+
+.ul.yellow-bullet-lists li {
+	font-family: "Roboto Mono", monospace;
+	font-size: 13px;
+	margin-left: 10px;
+}
+
+.ul.yellow-bullet-lists li::before {
+	content: "\2022";
+	color: var(--accent-color);
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -0.8em;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./About.css";
 export default function About() {
 	return (
 		<section id="about">
@@ -17,7 +17,17 @@ export default function About() {
 				<span>React</span> and use it to build exciting projects as well as 
 				contribute to open-source projects.
 			</p>
-	
+			<p>
+				...and I'm not stopping there. Here are some of the technologies, 
+				I plan to learn and improve this year: 
+			</p>
+			<ul className="yellow-bullet-lists">
+				<li>Redux</li>
+				<li>Styled-Components</li>
+				<li>Node.js</li>
+				<li>MongoDB</li>
+				<li>Express</li>
+			</ul>
 		</section>
 	);
 }
