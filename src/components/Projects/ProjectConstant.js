@@ -15,7 +15,13 @@ export const projects = [
 	},
 	{
 		title: "Battleship",
-		description: "lorem",
+		description: <p>Battleship is a fully responsive game developed with <span>Test Driven Development (TDD)</span> ideology
+			 in mind. By using <span>Jest</span>, a series of unit tests is created to test public functions/methods in order to reduce
+			  bugs and errors for the overall project. AI is also implemented for the computer to make a smart and strategic move. </p>,
+		challenges: <p>the challenge of this project is all about unit tests. I learned a lot a <span>TDD</span> as 
+			well as how important it is for code quality. Admittedly, this is also the first time in a 
+			project that I dare myself to finish thinking about the logic and tests of the game before 
+			starting to think of how it would look. It was hard at first, but it was smooth sailing after that.</p>,	  
 		image: "/images/projectImages/battleship.png",
 		tags: ["Unit Testing", "Jest", "JavaScript", "Webpack", "HTML/CSS"],
 		source: "https://github.com/khunhour/battleship",
@@ -41,7 +47,15 @@ export const projects = [
 	},
 	{
 		title: "WhatToDo",
-		description: "lorem",
+		description: <p>WhatToDo is a to-do list app that lets users easily
+			 organize their tasks and projects. It is built using <span>JavaScript ES6 Modules</span> 
+			 and bundled using <span>Webpack</span>. <a href="https://date-fns.org/">date-fns Library</a> 
+			 is also utilized for efficiently formatting date. 
+			 A light and dark mode toggle is incorporated into the app as well.</p>,
+		challenges: <p>This project was very fun to work on, but I did encountered 
+			some problems along the way especially when I tried to implement a 
+			<span>drag-and-drop</span> feature in order to rearrange projects. 
+			I managed to get it to work, but I think the code can be a bit cleaner.</p>,
 		image: "/images/projectImages/WhatToDo.png",
 		tags: [
 			 "JavaScript",
