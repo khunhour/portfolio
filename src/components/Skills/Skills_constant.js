@@ -12,7 +12,7 @@ export const skills = [
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
 	},
 	{
-		name: "React",
+		name: "React.js",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
 	},
 	{
