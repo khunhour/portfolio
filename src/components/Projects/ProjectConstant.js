@@ -18,7 +18,12 @@ export const projects = [
 	},
 	{
 		title: "Weather App",
-		description: "lorem",
+		description: <p>A fully responsive weather application that enables users to search weather 
+			information via city's name. Leveraging data from <a href="https://openweathermap.org/">OpenWeatherMap API</a>, the app displays 
+			the current weather forecast, hourly forecast for the next 24-hours as well as daily forecast
+			 for the next 7 days. It also includes a toggle to switch between Celsius and Fahrenheit.</p>,
+		challenges: <p>During this project, one notable challenge that I faced was dealing with time zone conversion. It did cause a little
+			 bit headache, but I learned a lot about how <span>UTC</span> and <span>time zone</span> works. </p>,
 		image: "/images/projectImages/weatherApp.png",
 		tags: [
 			"OpenWeatherMap API",
