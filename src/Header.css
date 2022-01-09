@@ -21,7 +21,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px 30px;
-	position: sticky;
+	/* position: sticky; */
 	top: 0;
 	z-index: 500;
 	background-color: var(--light-bg-color);
@@ -105,6 +105,11 @@ nav ul li a:hover {
 	}
 	ul.active .small-logo {
 		display: block;
+	}
+	ul.active + .menu-btn {
+		position: fixed;
+		right: 30px;
+		top: 20px;
 	}
 
 	nav ul li a {
