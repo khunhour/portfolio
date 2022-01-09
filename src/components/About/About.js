@@ -23,10 +23,11 @@ export default function About() {
 			</p>
 			<ul className="yellow-bullet-lists">
 				<li>Redux</li>
-				<li>Styled-Components</li>
 				<li>Node.js</li>
 				<li>MongoDB</li>
 				<li>Express</li>
+				<li>Styled-Components</li>
+				<li>Figma</li>
 			</ul>
 		</section>
 	);
