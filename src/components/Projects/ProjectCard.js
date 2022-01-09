@@ -1,6 +1,7 @@
 import React from "react";
 export default function ProjectCard({ project }) {
-	const { title, description, image, tags, source, demo } = project;
+	const { title, description, challenges, image, tags, source, demo } =
+		project;
 
 	const tagsContainer = (
 		<>
@@ -17,8 +18,11 @@ export default function ProjectCard({ project }) {
 			<div className="project-info">
 				<div>
 					<h3 className="project-title">{title}</h3>
-					<p>{description}</p>
-					<h5 className="project-tech">Technologies Used:</h5>
+					{/* <h5 className="project-heading">Description</h5> */}
+					{description}
+					<h5 className="project-heading">Challenges</h5>
+					{challenges}
+					<h5 className="project-heading">Technologies Used</h5>
 					<div className="tags-container">{tagsContainer}</div>
 				</div>
 				<div className="project-buttons">

@@ -92,6 +92,11 @@ button:hover,
 	margin-top: 30px;
 }
 
+p {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
 span {
 	color: var(--accent-color);
 }

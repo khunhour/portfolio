@@ -13,6 +13,9 @@
 	padding: 20px;
 }
 
+.project a {
+	color: var(--accent-color);
+}
 .project-info {
 	display: flex;
 	flex-direction: column;
@@ -22,18 +25,30 @@
 
 .project img {
 	width: 100%;
+	max-height: 315px;
 	border-radius: 5px;
 	border: solid 1px rgb(95, 93, 93);
 	margin-bottom: 10px;
 }
 .project-title {
 	text-align: center;
-	padding: 5px 0;
+	font-size: 28px;
 }
 
-.project-tech {
-	margin-top: 10px;
+.project-heading {
+	font-size: 25px;
+	/* margin-top: 30px; */
+	/* color: var(--accent-color); */
+}
+.project-heading::before {
+	content: "\2192";
+	margin-right: 5px;
 	color: var(--accent-color);
+}
+.project-heading::after {
+	content: ":";
+	color: var(--accent-color);
+	margin-left: 3px;
 }
 
 .tags-container {
@@ -44,7 +59,7 @@
 
 .tag {
 	font-family: "Roboto Mono", monospace;
-	font-size: 13px;
+	font-size: 15px;
 	margin-left: 10px;
 }
 
