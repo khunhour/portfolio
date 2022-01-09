@@ -36,6 +36,7 @@ export const projects = [
 		tags: [
 			 "JavaScript",
 			  "date-fns Library",
+			  "localStorage",
 			  "Webpack",
 			   "HTML/CSS",
 		],
