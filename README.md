@@ -8,4 +8,4 @@
 -   HTML
 -   CSS
 -   JavaScript
--   React.js (Hooks)
+-   React (Hooks)

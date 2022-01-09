@@ -4,7 +4,7 @@ export const projects = [
 		description:
 			"lorem fjksldamfldsfnas f dskf lkds flkd flks mlfk maklfmdslkmflks l jln ijn j jn i nj no mkm k j noi km k mn okm lk  j",
 		image: "/images/projectImages/devstore.png",
-		tags: ["React.js", "React Router","React Hooks", "FakeStore API", "JavaScript", "HTML/CSS" ],
+		tags: ["React", "React Router","React Hooks", "FakeStore API", "JavaScript", "HTML/CSS" ],
 		source: "https://github.com/khunhour/shopping-cart",
 		demo: "https://khunhour.github.io/shopping-cart/",
 	},
