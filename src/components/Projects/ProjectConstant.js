@@ -2,7 +2,12 @@ export const projects = [
 	{
 		title: "dev:store",
 		description:
-			"lorem fjksldamfldsfnas f dskf lkds flkd flks mlfk maklfmdslkmflks l jln ijn j jn i nj no mkm k j noi km k mn okm lk  j",
+			<p>dev:store is a cross-platform e-commerce shopping website build using React. The app allows users to browser
+				 through products, add item to wisthlist/cart, and checkout by utilizing <a href="https://fakestoreapi.com/">Fake Store API</a> along with <span>React Hooks</span>.
+				  <span>React Router</span> is also used to implement route handling for the entire app.</p>,
+		challenges: <p>One issue that came up during this project is that I was passing the same state as props 
+			through multiples component hierarchy. This issue introduced me <span>useContext</span>
+			 which I finally implemented into the project.</p>,
 		image: "/images/projectImages/devstore.png",
 		tags: ["React", "React Router","React Hooks", "FakeStore API", "JavaScript", "HTML/CSS" ],
 		source: "https://github.com/khunhour/shopping-cart",
