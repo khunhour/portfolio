@@ -18,3 +18,19 @@
 	cursor: pointer;
 	color: var(--accent-color);
 }
+
+@media (max-width: 550px) {
+	.scroll-to-top {
+		font-size: 1.7em;
+		right: 0.5em;
+		bottom: 0.7em;
+	}
+}
+
+@media (max-width: 500px) {
+	.scroll-to-top {
+		font-size: 1.6em;
+		right: 0.4em;
+		bottom: 0.6em;
+	}
+}
