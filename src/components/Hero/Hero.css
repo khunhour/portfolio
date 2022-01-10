@@ -12,11 +12,12 @@
 
 @media (max-width: 500px) {
 	.name {
-		font-size: 52px;
+		font-size: 36px;
+		line-height: 52px;
 	}
 
 	#home h1 {
-		font-size: 22px;
+		font-size: 21px;
 	}
 	#home .mono {
 		font-size: 17px;
