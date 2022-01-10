@@ -26,16 +26,25 @@ export default function Main() {
 			behavior: "smooth",
 		});
 	};
-
 	const className = scrollBtnIsVisible ? "" : "hide";
+
+	const [showResume, setShowResume] = useState(false);
+
+	const handleToggleResume = () => {
+		setShowResume(!showResume);
+	};
+
+	const handleViewResume = () => {
+		setShowResume(true);
+	};
 
 	return (
 		<div>
-			<Hero />
+			<Hero handleViewResume={handleViewResume} />
 			<About />
 			<Skills />
 			<Projects />
-			<Contacts />
+			<Contacts handleToggleResume={handleToggleResume} />
 			<div onClick={scrollToTop}>
 				<BsFillArrowUpCircleFill
 					className={`scroll-to-top ${className}`}
