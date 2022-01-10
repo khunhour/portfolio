@@ -110,6 +110,7 @@ nav ul li a:hover {
 		position: fixed;
 		right: 30px;
 		top: 20px;
+		transform: rotate(180deg);
 	}
 
 	nav ul li a {

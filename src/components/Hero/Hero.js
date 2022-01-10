@@ -10,7 +10,7 @@ export default function Hero({ handleViewResume }) {
 			<h1>I build things and make them pretty on the Internet.</h1>
 
 			<a
-				href="#contacts"
+				href="#resume"
 				className="link-button"
 				onClick={handleViewResume}
 			>
