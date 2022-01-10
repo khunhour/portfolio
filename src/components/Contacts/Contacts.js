@@ -18,13 +18,10 @@ export default function Contacts({ showResume, handleToggleResume }) {
 					<MdMail color="var(--accent-color)" />
 					<div>khonhourmorm@gmail.com</div>
 				</div>
-				<a
-					href="/images/projectImages/devstore.png"
-					className="link-button"
-					onClick={handleToggleResume}
-				>
+				<button onClick={handleToggleResume}>
 					{showResume ? "Hide Resume" : "View Resume"}
-				</a>
+				</button>
+				<iframe src=""></iframe>
 			</div>
 		</section>
 	);

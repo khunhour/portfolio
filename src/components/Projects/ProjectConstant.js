@@ -19,7 +19,7 @@ export const projects = [
 				implemented into the project.
 			</p>
 		),
-		image: "/images/projectImages/devstore.png",
+		image: "/assets/projectImages/devstore.png",
 		tags: [
 			"React",
 			"React Router",
@@ -54,7 +54,7 @@ export const projects = [
 				that.
 			</p>
 		),
-		image: "/images/projectImages/battleship.png",
+		image: "/assets/projectImages/battleship.png",
 		tags: ["Unit Testing", "Jest", "JavaScript", "Webpack", "HTML/CSS"],
 		source: "https://github.com/khunhour/battleship",
 		demo: "https://khunhour.github.io/battleship/",
@@ -81,7 +81,7 @@ export const projects = [
 				<span>time zone</span> works.{" "}
 			</p>
 		),
-		image: "/images/projectImages/weatherApp.png",
+		image: "/assets/projectImages/weatherApp.png",
 		tags: ["OpenWeatherMap API", "JavaScript", "Async&Await", "HTML/CSS"],
 		source: "https://github.com/khunhour/weather_app",
 		demo: "https://khunhour.github.io/weather_app/",
@@ -108,7 +108,7 @@ export const projects = [
 				be a bit cleaner.
 			</p>
 		),
-		image: "/images/projectImages/WhatToDo.png",
+		image: "/assets/projectImages/WhatToDo.png",
 		tags: [
 			"JavaScript",
 			"date-fns Library",
