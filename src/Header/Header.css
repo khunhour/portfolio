@@ -73,6 +73,9 @@ nav ul li a:hover {
 	display: none;
 	z-index: 999;
 }
+header h1:hover {
+	cursor: pointer;
+}
 
 .menu-btn:hover {
 	color: var(--accent-color);

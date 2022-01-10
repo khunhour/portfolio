@@ -12,9 +12,15 @@ export default function Header() {
 		setLinksHidden(true);
 	};
 	const className = linksHidden ? "" : "active";
+
+	const handleReload = () => {
+		document.location.hash = "";
+		window.location.reload();
+	};
+
 	return (
 		<header>
-			<h1>
+			<h1 onClick={handleReload}>
 				khunhour<span>.dev</span>
 			</h1>
 			<nav>

@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 export default function About() {
 	return (
-		<section id="about">
+		<section id="about" name="about">
 			<h2>About Me</h2>
 			<p>
 				Hello! My name is <span>Khunhour</span> and I am a self-taught{" "}
