@@ -92,9 +92,9 @@ export const projects = [
 			<p>
 				WhatToDo is a to-do list app that lets users easily organize
 				their tasks and projects. It is built using{" "}
-				<span>JavaScript ES6 Modules</span>
-				and bundled using <span>Webpack</span>. To efficiently format
-				date, <a href="https://date-fns.org/">date-fns Library</a> is
+				<span>JavaScript ES6 Modules</span> and bundled using{" "}
+				<span>Webpack</span>. To efficiently format date,{" "}
+				<a href="https://date-fns.org/">date-fns Library</a> is
 				utilized. A light and dark mode toggle is incorporated into the
 				app as well.
 			</p>

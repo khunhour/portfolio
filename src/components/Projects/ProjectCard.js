@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
 					{description}
 					<h5 className="project-heading">Challenges</h5>
 					{challenges}
-					<h5 className="project-heading">Technologies Used</h5>
+					<h5 className="project-heading">Technologies</h5>
 					<div className="tags-container">{tagsContainer}</div>
 				</div>
 				<div className="project-buttons">
