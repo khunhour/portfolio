@@ -10,6 +10,10 @@
 	line-height: 72px;
 }
 
+#home a {
+	margin-top: 20px;
+}
+
 @media (max-width: 500px) {
 	.name {
 		font-size: 36px;
