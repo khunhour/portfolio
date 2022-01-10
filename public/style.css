@@ -4,19 +4,6 @@
 	font-family: "Roboto Mono", monospace;
 	font-family: "Poppins", sans-serif;
 	font-size: 19px;
-	--dark-blue: #042d57;
-	--dark-green: #379683;
-	--green: #5cdb95;
-	--light-green: #8ee4af;
-	--white: #edf5e1;
-	--accent: #23c19d;
-	/* --backg: #349188; */
-	--a: #c40000;
-	--blue: #2daae9;
-	--lightblue: #55dae1;
-	--red: #ff4351;
-	--orange: #fc8822;
-
 	--bg-color: #1b2025;
 	--light-bg-color: #252a30;
 	--accent-color: #ffd42f;
@@ -27,11 +14,11 @@
 	box-sizing: border-box;
 }
 html {
-	background-color: #1b2025;
+	background-color: var(--bg-color);
 	scroll-behavior: smooth;
 }
 body {
-	background-color: #1b2025;
+	background-color: var(--bg-color);
 	color: var(--white);
 }
 

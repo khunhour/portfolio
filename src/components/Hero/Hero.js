@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 export default function Hero({ handleViewResume }) {
-	console.log(handleViewResume);
 	return (
 		<section id="home">
 			<div className="mono">Hi there! My name is</div>
