@@ -28,7 +28,8 @@
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	padding-top: 140%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+	margin-top: 20px;
+	padding-top: 140%;
 }
 .responsive-iframe {
 	position: absolute;
@@ -40,7 +41,6 @@
 	height: 100%;
 	border-radius: 5px;
 	border: solid 2px var(--bg-color);
-	margin-top: 20px;
 }
 
 @media (max-width: 550px) {
