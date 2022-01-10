@@ -105,6 +105,9 @@ span {
 	section {
 		padding: 45px 25px;
 	}
+	p {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 500px) {

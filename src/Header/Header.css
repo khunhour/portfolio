@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	border: solid 1px var(--accent-color);
+	/* border: solid 1px var(--accent-color); */
 	color: var(--accent-color);
 }
 
@@ -122,6 +122,10 @@ nav ul li a:hover {
 @media (max-width: 550px) {
 	header {
 		padding: 10px 25px;
+	}
+	ul.active + .menu-btn {
+		right: 20px;
+		top: 20px;
 	}
 }
 
