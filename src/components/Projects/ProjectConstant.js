@@ -65,7 +65,7 @@ export const projects = [
 			<p>
 				A fully responsive weather application that enables users to
 				search weather information via city's name. By leveraging data
-				from{" "}
+				fetched from{" "}
 				<a href="https://openweathermap.org/">OpenWeatherMap API</a>,
 				the app displays the current weather forecast, hourly forecast
 				for the next 24-hours as well as daily forecast for the next 7
@@ -76,8 +76,8 @@ export const projects = [
 		challenges: (
 			<p>
 				During this project, one notable challenge that I faced was
-				dealing with time zone conversion. It did cause a little bit
-				headache, but I learned a lot about how <span>UTC</span> and{" "}
+				dealing with time zone conversion. It did cause a little bit of
+				a headache, but I learned a lot about how <span>UTC</span> and{" "}
 				<span>time zone</span> works.{" "}
 			</p>
 		),
@@ -102,7 +102,7 @@ export const projects = [
 		challenges: (
 			<p>
 				This project was very fun to work on, but I did encountered some
-				problems along the way especially when I tried to implement a{" "}
+				problems along the way especially when trying to implement a{" "}
 				<span>drag-and-drop</span> feature in order to rearrange
 				projects. I managed to get it to work, but I think the code can
 				be a bit cleaner.
