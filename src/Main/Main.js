@@ -44,7 +44,10 @@ export default function Main() {
 			<About />
 			<Skills />
 			<Projects />
-			<Contacts handleToggleResume={handleToggleResume} />
+			<Contacts
+				showResume={showResume}
+				handleToggleResume={handleToggleResume}
+			/>
 			<div onClick={scrollToTop}>
 				<BsFillArrowUpCircleFill
 					className={`scroll-to-top ${className}`}

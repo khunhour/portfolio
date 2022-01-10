@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import "./Contacts.css";
 
-export default function Contacts() {
+export default function Contacts({ showResume, handleToggleResume }) {
 	return (
 		<section id="contacts">
 			<h2>Contacts</h2>
@@ -21,8 +21,9 @@ export default function Contacts() {
 				<a
 					href="/images/projectImages/devstore.png"
 					className="link-button"
+					onClick={handleToggleResume}
 				>
-					Download Resume
+					{showResume ? "Hide Resume" : "View Resume"}
 				</a>
 			</div>
 		</section>
