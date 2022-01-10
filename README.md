@@ -1,7 +1,8 @@
 # Portfolio
 
--   This is my Portfolio.
--   It is Build using `create-react-app`
+-   This is my Portfolio website.
+-   It is build using `create-react-app`
+-   check out live Demo here: https://khunhour.github.io/portfolio
 
 # Build With
 
