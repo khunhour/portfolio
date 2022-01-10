@@ -23,3 +23,12 @@
 	text-decoration: underline;
 	color: var(--accent-color);
 }
+
+@media (max-width: 550px) {
+	.contacts-container {
+		padding: 20px;
+	}
+	.contact {
+		font-size: 17px;
+	}
+}
