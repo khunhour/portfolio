@@ -38,7 +38,7 @@ export default function Contacts({ showResume, handleToggleResume }) {
 						<iframe
 							title="Khunhour Morm's Resume"
 							className="responsive-iframe"
-							src="/assets/resume.pdf"
+							src="assets/resume.pdf"
 						></iframe>
 					</div>
 				</>
