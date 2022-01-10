@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@300;400;700&display=swap");
+
+:root {
+	font-family: "Roboto Mono", monospace;
+	font-family: "Poppins", sans-serif;
+	font-size: 19px;
+	--bg-color: #1b2025;
+	--light-bg-color: #252a30;
+	--accent-color: #ffd42f;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	background-color: var(--bg-color);
+	scroll-behavior: smooth;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--white);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 auto;
+	padding: 58px;
+	max-width: 1040px;
+	box-sizing: content-box;
+	position: relative;
+	overflow: hidden;
+}
+
+section h2 {
+	width: max-content;
+	max-width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 72px;
+}
+
+section h2::before {
+	content: "\2192";
+	color: var(--accent-color);
+}
+section h2::after {
+	content: ".";
+	color: var(--accent-color);
+}
+
+button,
+.link-button {
+	font-family: "Roboto Mono", monospace;
+	font-size: 15px;
+	background-color: transparent;
+	padding: 12px 40px;
+	border-radius: 5px;
+	border: solid 1px var(--accent-color);
+	color: var(--accent-color);
+	transition: all 0.25s ease;
+	cursor: pointer;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+button:hover,
+.link-button:hover {
+	background-color: #ffd52f2c;
+}
+
+.mono {
+	font-family: "Roboto Mono", monospace;
+	margin-top: 30px;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+span {
+	color: var(--accent-color);
+}
+
+@media (max-width: 550px) {
+	section {
+		padding: 45px 25px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 500px) {
+	section {
+		padding: 40px 20px;
+	}
+	section h2 {
+		font-size: 32px;
+		line-height: 72px;
+	}
+}
+@media (max-width: 830px) {
+}
