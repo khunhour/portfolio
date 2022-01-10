@@ -5,11 +5,11 @@ export default function About() {
 		<section id="about">
 			<h2>About Me</h2>
 			<p>
-				Hello! My name is <span>Khunhour</span> and I am a self-taught
-				web developer based in Japan. Ever since I could remember, I've
-				always like building things and when I started touching on HTML
-				and CSS, I knew that <span>this</span> is what I want to do in
-				my career.
+				Hello! My name is <span>Khunhour</span> and I am a self-taught{" "}
+				<span>JavaScript</span> developer based in Japan. Ever since I
+				could remember, I've always like building things and when I
+				started touching on HTML and CSS, I knew that <span>this</span>{" "}
+				is what I want to do in my career.
 			</p>
 			<p>
 				Since then, I've been learning more about Front-End technologies
