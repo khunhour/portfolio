@@ -33,7 +33,7 @@ export default function Contacts({ showResume, handleToggleResume }) {
 			</div>
 			{showResume && (
 				<>
-					<h2 id="resume">Khunhour's Resume</h2>
+					<h2 id="resume">Resume</h2>
 					<div className="iframe-container">
 						<iframe
 							title="Khunhour Morm's Resume"
