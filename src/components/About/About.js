@@ -14,11 +14,13 @@ export default function About() {
 			<p>
 				Since then, I've been learning more about Front-End technologies
 				like <span>React</span> and use it to build exciting projects as
-				well as contribute as much as I can to open-source projects.
+				well as contribute as much as I can to open-source projects like{" "}
+				<a href="https://github.com/TheOdinProject">The Odin Project</a>
+				.
 			</p>
 			<p>
 				Currently, I'm planning to learn about the <span>Back-End</span>{" "}
-				side of web development, particularly with technologies like{" "}
+				side of web development, particularly with technologies such as{" "}
 				<span>Firebase</span> and <span>Node.js</span>.
 			</p>
 		</section>

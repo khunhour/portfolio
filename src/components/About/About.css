@@ -1,4 +1,8 @@
-ul.yellow-bullet-lists{
+#about a {
+	color: var(--accent-color);
+}
+
+/* ul.yellow-bullet-lists{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin-bottom: 20px;
@@ -19,4 +23,4 @@ ul.yellow-bullet-lists{
 	display: inline-block;
 	width: 1em;
 	margin-left: -0.8em;
-}
+} */

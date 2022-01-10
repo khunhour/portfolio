@@ -3,7 +3,7 @@ export const projects = [
 		title: "dev:store",
 		description: (
 			<p>
-				dev:store is a cross-platform e-commerce shopping website build
+				dev:store is a cross-platform e-commerce shopping website built
 				using <span>React</span>. The app allows users to browse through
 				products, add items to wishlist/cart, and checkout by utilizing{" "}
 				<a href="https://fakestoreapi.com/">Fake Store API</a> along
@@ -15,8 +15,9 @@ export const projects = [
 			<p>
 				One issue that came up during this project is that I was passing
 				the same state as props through multiple components hierarchy.
-				This issue introduced me to <span>useContext</span> hook which I
-				finally implemented into the project.
+				This issue introduced me to <span>useContext</span> hook which
+				definitely helped reduce code repeatition and make it cleaner by
+				a lot.
 			</p>
 		),
 		image: "assets/projectImages/devstore.png",
@@ -45,7 +46,7 @@ export const projects = [
 		),
 		challenges: (
 			<p>
-				the challenge of this project is all about unit tests. I learned
+				The challenge of this project is all about unit tests. I learned
 				a lot a <span>TDD</span> as well as how important it is for code
 				quality. Admittedly, this is also the first time in a project
 				that I dare myself to finish thinking about the logic and tests
@@ -78,7 +79,7 @@ export const projects = [
 				During this project, one notable challenge that I faced was
 				dealing with time zone conversion. It did cause a little bit of
 				a headache, but I learned a lot about how <span>UTC</span> and{" "}
-				<span>time zone</span> works.{" "}
+				<span>time zone</span> works.
 			</p>
 		),
 		image: "assets/projectImages/weatherApp.png",
