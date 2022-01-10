@@ -27,7 +27,7 @@ export default function Main() {
 		});
 	};
 
-	const className = scrollBtnIsVisible ? "" : "zero-opacity";
+	const className = scrollBtnIsVisible ? "" : "hide";
 
 	return (
 		<div>
@@ -36,8 +36,10 @@ export default function Main() {
 			<Skills />
 			<Projects />
 			<Contacts />
-			<div onClick={scrollToTop} className={`scroll-to-top ${className}`}>
-				<BsFillArrowUpCircleFill />
+			<div onClick={scrollToTop}>
+				<BsFillArrowUpCircleFill
+					className={`scroll-to-top ${className}`}
+				/>
 			</div>
 		</div>
 	);
