@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
 import "./Contacts.css";
 
 export default function Contacts({ showResume, handleToggleResume }) {
@@ -10,13 +11,17 @@ export default function Contacts({ showResume, handleToggleResume }) {
 			<div className="contacts-container">
 				<div className="contact">
 					<FaGithub color="var(--accent-color)" />
-					<a href="https://github.com/khunhour">
-						https://github.com/khunhour
-					</a>
+					<a href="https://github.com/khunhour">Github</a>
 				</div>
 				<div className="contact">
 					<MdMail color="var(--accent-color)" />
 					<div>khonhourmorm@gmail.com</div>
+				</div>
+				<div className="contact">
+					<BsLinkedin color="var(--accent-color)" />
+					<a href="https://www.linkedin.com/in/khunhour-morm-dev/">
+						LinkedIn
+					</a>
 				</div>
 				<button onClick={handleToggleResume}>
 					{showResume ? "Hide Resume" : "View Resume"}
