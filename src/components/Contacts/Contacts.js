@@ -21,8 +21,19 @@ export default function Contacts({ showResume, handleToggleResume }) {
 				<button onClick={handleToggleResume}>
 					{showResume ? "Hide Resume" : "View Resume"}
 				</button>
-				<iframe src=""></iframe>
 			</div>
+			{showResume && (
+				<>
+					<h2>Khunhour's Resume</h2>
+					<div className="iframe-container">
+						<iframe
+							title="Khunhour Morm's Resume"
+							className="responsive-iframe"
+							src="/assets/resume.pdf"
+						></iframe>
+					</div>
+				</>
+			)}
 		</section>
 	);
 }
