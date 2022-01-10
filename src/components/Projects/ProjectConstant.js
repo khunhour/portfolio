@@ -4,19 +4,19 @@ export const projects = [
 		description: (
 			<p>
 				dev:store is a cross-platform e-commerce shopping website build
-				using <span>React</span>. The app allows users to browser
-				through products, add item to wishlist/cart, and checkout by
-				utilizing <a href="https://fakestoreapi.com/">Fake Store API</a>{" "}
-				along with <span>React Hooks</span>. Route handling for the
-				entire app is done by implementing <span>React Router</span>.
+				using <span>React</span>. The app allows users to browse through
+				products, add items to wishlist/cart, and checkout by utilizing{" "}
+				<a href="https://fakestoreapi.com/">Fake Store API</a> along
+				with <span>React Hooks</span>. Route handling for the entire app
+				is done by implementing <span>React Router</span>.
 			</p>
 		),
 		challenges: (
 			<p>
 				One issue that came up during this project is that I was passing
-				the same state as props through multiples component hierarchy.
-				This issue introduced me <span>useContext</span> which I finally
-				implemented into the project.
+				the same state as props through multiple components hierarchy.
+				This issue introduced me to <span>useContext</span> hook which I
+				finally implemented into the project.
 			</p>
 		),
 		image: "assets/projectImages/devstore.png",
