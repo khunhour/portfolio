@@ -115,7 +115,7 @@ nav ul li a:hover {
 	nav ul li a {
 		display: inline-block;
 		margin: 10px 0px;
-		font-size: 24px;
+		font-size: 22px;
 	}
 }
 
@@ -126,6 +126,9 @@ nav ul li a:hover {
 	ul.active + .menu-btn {
 		right: 20px;
 		top: 20px;
+	}
+	nav ul li a {
+		font-size: 20px;
 	}
 }
 

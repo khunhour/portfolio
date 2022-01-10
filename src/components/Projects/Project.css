@@ -103,6 +103,12 @@
 	}
 }
 
+@media (max-width: 550px) {
+	.project-title {
+		font-size: 25px;
+	}
+}
+
 @media (max-width: 400px) {
 	.project-buttons .link-button {
 		padding: 12px 25px;
