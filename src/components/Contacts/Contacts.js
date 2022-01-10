@@ -14,14 +14,14 @@ export default function Contacts({ showResume, handleToggleResume }) {
 					<a href="https://github.com/khunhour">Github</a>
 				</div>
 				<div className="contact">
-					<MdMail color="var(--accent-color)" />
-					<div>khonhourmorm@gmail.com</div>
-				</div>
-				<div className="contact">
 					<BsLinkedin color="var(--accent-color)" />
 					<a href="https://www.linkedin.com/in/khunhour-morm-dev/">
 						LinkedIn
 					</a>
+				</div>
+				<div className="contact">
+					<MdMail color="var(--accent-color)" />
+					<div>khonhourmorm@gmail.com</div>
 				</div>
 				<button onClick={handleToggleResume}>
 					{showResume ? "Hide Resume" : "View Resume"}
