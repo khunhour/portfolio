@@ -102,7 +102,7 @@ export const projects = [
 		),
 		challenges: (
 			<p>
-				This project was very fun to work on, but I did encountered some
+				This project was very fun to work on, but I did encounter some
 				problems along the way especially when trying to implement a{" "}
 				<span>drag-and-drop</span> feature in order to rearrange
 				projects. I managed to get it to work, but I think the code can
