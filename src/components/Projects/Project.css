@@ -40,11 +40,10 @@
 
 .project-heading {
 	font-size: 25px;
-	/* margin-top: 30px; */
-	/* color: var(--accent-color); */
 }
 .project-heading::before {
-	content: "\2192";
+	/* content: "\2192"; */
+	content: "#";
 	margin-right: 5px;
 	color: var(--accent-color);
 }
