@@ -4,7 +4,7 @@ import "./Footer.css";
 export default function Footer() {
 	return (
 		<footer>
-			<div>Designed {"&"} Built By Khunhour Morm</div>
+			<div>Built By Khunhour Morm</div>
 			<div>
 				<a href="https://github.com/khunhour/portfolio">
 					<FaGithub className="footer-img" />
