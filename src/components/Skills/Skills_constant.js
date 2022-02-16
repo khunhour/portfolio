@@ -1,8 +1,16 @@
 export const skills = [
+	// {
+	// 	name: "TypeScript",
+	// 	src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+	// },
 	{
 		name: "React",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
 	},
+	// {
+	// 	name: "Redux",
+	// 	src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+	// },
 	{
 		name: "JavaScript",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
