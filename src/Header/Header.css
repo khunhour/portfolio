@@ -31,6 +31,9 @@ nav ul {
 nav ul li {
 	list-style-type: none;
 	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 nav ul li a {
 	text-decoration: none;
@@ -44,6 +47,11 @@ nav ul li a {
 nav ul li a:hover {
 	/* border: solid 1px var(--accent-color); */
 	color: var(--accent-color);
+}
+
+nav button {
+	margin-top: 0;
+	padding: 8px 24px;
 }
 
 .menu-btn {
@@ -98,7 +106,8 @@ header h1:hover {
 		transform: rotate(180deg);
 	}
 
-	nav ul li a {
+	nav ul li a,
+	nav ul li button {
 		display: inline-block;
 		margin: 10px 0px;
 		font-size: 22px;
