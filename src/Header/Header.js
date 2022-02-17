@@ -7,7 +7,7 @@ export default function Header() {
 	const toggleMenuBtn = () => {
 		setLinksHidden(!linksHidden);
 	};
-
+	//hide side menu when clicked on links on small screen
 	const handleLinkClick = () => {
 		setLinksHidden(true);
 	};
@@ -42,6 +42,9 @@ export default function Header() {
 					</li>
 					<li onClick={handleLinkClick}>
 						<a href="#contacts">Contacts</a>
+					</li>
+					<li onClick={handleLinkClick}>
+						<button>日本語</button>
 					</li>
 				</ul>
 				<div className="menu-btn" onClick={toggleMenuBtn}>
