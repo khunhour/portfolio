@@ -16,7 +16,7 @@ export const projects = [
 				One issue that came up during this project is that I was passing
 				the same state as props through multiple components hierarchy.
 				This issue introduced me to <span>useContext</span> hook which
-				definitely helped reduce code repeatition and make it cleaner by
+				definitely helped reduce code repetition and make it cleaner by
 				a lot.
 			</p>
 		),
