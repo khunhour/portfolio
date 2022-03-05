@@ -43,8 +43,8 @@ export const skills = [
 		name: "CSS",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
 	},
-	{
-		name: "Material UI",
-		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-	},
+	// {
+	// 	name: "Material UI",
+	// 	src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+	// },
 ];
