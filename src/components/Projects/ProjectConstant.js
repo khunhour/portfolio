@@ -3,16 +3,27 @@ export const projects = [
 	// 	title: "Seek&Find",
 	// 	description: (
 	// 		<p>
-	// 			Seek&Find is a Where's Waldo like game built with <span>TypeScript</span>
-	// 			and <span>React</span>. The game leverages <a href="https://firebase.google.com/docs/firestore">Firebase Cloud Firestore</a> 
-	// 			to read and write players' scores in the database. <span>React Testing Library</span> is 
-	// 			used to create <span>unit tests</span> as well as <span>integration tests</span> for the app.
-	// 			 The app is designed using <span>Tailwind CSS</span> for full responsiveness.
+	// 			Seek&Find is a Where's Waldo like game built with{" "}
+	// 			<span>TypeScript</span> and <span>React</span>. The game
+	// 			leverages{" "}
+	// 			<a href="https://firebase.google.com/docs/firestore">
+	// 				Firebase Cloud Firestore
+	// 			</a>{" "}
+	// 			to read and write players' scores in the database.{" "}
+	// 			<span>React Testing Library</span> is used to create{" "}
+	// 			<span>unit tests</span> as well as{" "}
+	// 			<span>integration tests</span> for the app. The app is designed
+	// 			using <span>Tailwind CSS</span> for full responsiveness.
 	// 		</p>
 	// 	),
 	// 	challenges: (
 	// 		<p>
-	// 			I decided to challenge myself to build this React project using mainly TypeScript instead of the usual JavaScript. At first, I did need some getting used to the strictly typed syntax, but later I found that it resulted in less bugs during runtime and therefore less time of me trying to pin point where the bugs are.
+	// 			I decided to challenge myself to build this React project using
+	// 			mainly <span>TypeScript</span> instead of the usual JavaScript.
+	// 			At first, I did need some getting used to the strictly typed
+	// 			syntax, but later I found that it resulted in less bugs during
+	// 			runtime and therefore less time of me trying to pin point where
+	// 			the bugs are.
 	// 		</p>
 	// 	),
 	// 	image: "assets/projectImages/devstore.png",
