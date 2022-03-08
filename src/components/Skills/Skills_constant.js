@@ -23,6 +23,10 @@ export const skills = [
 		name: "Jest",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
 	},
+	// {
+	// 	name: "React Testing Libray",
+	// 	src: "https://testing-library.com/img/logo-large.png",
+	// },
 	{
 		name: "Git",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
@@ -43,8 +47,8 @@ export const skills = [
 		name: "CSS",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
 	},
-	// {
-	// 	name: "Material UI",
-	// 	src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-	// },
+	{
+		name: "Sass",
+		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+	},
 ];
