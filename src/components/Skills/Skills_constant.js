@@ -20,13 +20,13 @@ export const skills = [
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
 	},
 	{
+		name: "React Testing Library",
+		src: "https://testing-library.com/img/logo-large.png",
+	},
+	{
 		name: "Jest",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
 	},
-	// {
-	// 	name: "React Testing Libray",
-	// 	src: "https://testing-library.com/img/logo-large.png",
-	// },
 	{
 		name: "Git",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",

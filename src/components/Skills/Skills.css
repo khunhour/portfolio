@@ -4,6 +4,9 @@
 	max-width: 640px;
 	gap: 15px;
 }
+.skill:nth-child(5) {
+	width: 275px;
+}
 .skill {
 	background-color: var(--light-bg-color);
 	display: flex;
@@ -24,6 +27,9 @@
 @media (max-width: 500px) {
 	.skills-container {
 		gap: 10px;
+	}
+	.skill:nth-child(5) {
+		width: 200px;
 	}
 	.skill {
 		width: 95px;
