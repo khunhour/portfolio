@@ -4,7 +4,7 @@
 	max-width: 640px;
 	gap: 15px;
 }
-.skill:nth-child(5) {
+.skill:last-child {
 	width: 275px;
 }
 .skill {
@@ -28,7 +28,7 @@
 	.skills-container {
 		gap: 10px;
 	}
-	.skill:nth-child(5) {
+	.skill:last-child {
 		width: 200px;
 	}
 	.skill {

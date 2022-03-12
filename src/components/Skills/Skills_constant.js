@@ -4,24 +4,20 @@ export const skills = [
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
 	},
 	{
+		name: "JavaScript",
+		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+	},
+	{
 		name: "React",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
 	},
-	// {
-	// 	name: "Redux",
-	// 	src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-	// },
 	{
-		name: "JavaScript",
-		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+		name: "Redux",
+		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
 	},
 	{
 		name: "Firebase",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-	},
-	{
-		name: "React Testing Library",
-		src: "https://testing-library.com/img/logo-large.png",
 	},
 	{
 		name: "Jest",
@@ -50,5 +46,9 @@ export const skills = [
 	{
 		name: "Sass",
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+	},
+	{
+		name: "React Testing Library",
+		src: "https://testing-library.com/img/logo-large.png",
 	},
 ];
