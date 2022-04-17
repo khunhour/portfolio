@@ -48,11 +48,11 @@ export const skills = [
 		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
 	},
 	{
+		name: "Material UI",
+		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+	},
+	{
 		name: "React Testing Library",
 		src: "https://testing-library.com/img/logo-large.png",
 	},
-	{
-		name: "Material UI",
-		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
-	}
 ];
