@@ -6,6 +6,7 @@ import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import "./Main.css";
+import Experience from "../components/Experience/Experience";
 
 export default function Main() {
 	const [scrollBtnIsVisible, setScrollBtnIsVisible] = useState(false);
@@ -42,6 +43,7 @@ export default function Main() {
 		<div>
 			<Hero handleViewResume={handleViewResume} />
 			<About />
+			<Experience />
 			<Skills />
 			<Projects />
 			<Contacts
