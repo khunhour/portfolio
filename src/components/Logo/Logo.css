@@ -1,0 +1,55 @@
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo svg {
+    width: 50px;
+    height: 50px;
+}
+
+.logo_k {
+    fill: var(--accent-color);
+    -webkit-transition: fill 0.4s;
+    -moz-transition: fill 0.4s;
+    -ms-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+    transition: fill 0.4s;
+}
+
+.logo_m {
+    fill: var(--white);
+    -webkit-transition: fill 0.4s;
+    -moz-transition: fill 0.4s;
+    -ms-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+    transition: fill 0.4s;
+}
+
+.logo_dot {
+    fill: var(--accent-color);
+    -webkit-transition: fill 0.4s;
+    -moz-transition: fill 0.4s;
+    -ms-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+    transition: fill 0.4s;
+    width: 15px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#logo:hover .logo_k {
+    fill: var(--white);
+}
+
+#logo:hover .logo_m {
+    fill: var(--accent-color);
+}
+
+#logo:hover .logo_dot {
+    fill: var(--white);
+    visibility: visible;
+}
